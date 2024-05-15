@@ -39,7 +39,7 @@ function addMovie(event) {
   const director = document.getElementById('director').value;
   const year = parseInt(document.getElementById('year').value);
 
-  if (!validateMovie(title, director, year))  return;
+  if (!validateMovie(title, director, year)) return;
 
   const movie = new Movie(title, director, year);
 
